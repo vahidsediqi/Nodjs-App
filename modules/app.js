@@ -2,6 +2,10 @@
 
 const names = require('./names')
 
-console.log(names.khan)
+const sayHi = (name) => {
+   console.log(`Hello ${name}`)
+}
+
+sayHi(names)
 
 
